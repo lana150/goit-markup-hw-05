@@ -9,6 +9,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -32,8 +33,10 @@ h3 {
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
@@ -80,6 +83,7 @@ h3 {
 .header-menu-link:hover {
   color: #404bbf;
 }
+
 .header-menu-link:focus {
   color: #404bbf;
 }
@@ -121,6 +125,7 @@ h3 {
 .address-list-item-link:hover {
   color: #404bbf;
 }
+
 .address-list-item-link:focus {
   color: #404bbf;
 }
@@ -131,10 +136,8 @@ h3 {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -173,6 +176,7 @@ h3 {
 .hero-btn:hover {
   background-color: #404bbf;
 }
+
 .hero-btn:focus {
   background-color: #404bbf;
 }
@@ -218,6 +222,7 @@ h3 {
   padding: 24px 100px 24px 100px;
   margin-bottom: 8px;
 }
+
 .icon-list {
   display: flex;
   flex-direction: row;
@@ -232,12 +237,14 @@ h3 {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* Section-3- team */
 
 .team {
@@ -257,8 +264,10 @@ h3 {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .team-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -289,6 +298,7 @@ h3 {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -305,6 +315,7 @@ h3 {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .item {
   width: 40px;
   height: 40px;
@@ -325,9 +336,11 @@ h3 {
 .item .link:hover {
   background-color: #404bbf;
 }
+
 .item .link:focus {
   background-color: #404bbf;
 }
+
 .svg {
   fill: #f4f4fd;
 }
@@ -339,6 +352,7 @@ h3 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -364,7 +378,8 @@ h3 {
 
 .portfolio-list-card:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-card:hover .portfolio-cover-text {
@@ -415,6 +430,7 @@ h3 {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
@@ -434,6 +450,7 @@ h3 {
   display: flex;
   align-items: baseline;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -445,9 +462,11 @@ h3 {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-logo-white {
   color: #f4f4fd;
 }
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -489,6 +508,7 @@ h3 {
 svg {
   fill: #f4f4fd;
 }
+
 .footer-ikon {
   fill: #f4f4fd;
 }
@@ -522,10 +542,48 @@ svg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 24px;
 }
+
 .modal-close {
   position: absolute;
   top: 24px;
   right: 24px;
   border-radius: 50%;
 }
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  max-width: 360px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-bottom: 8px;
+}
+
+.modal-input::placeholder {
+  color: #434455;
+}
+
+.modal-btn:disabled {
+  background-color: #404bbf;
+}
+
+/*.modal-input:valid {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-input:invalid {
+  background-color: #31d0aa;
+}*/
