@@ -522,24 +522,28 @@ svg {
   margin-bottom: 16px;
 }
 
-.footer-form {
-  display: flex;
-  gap 24px;
-}
-
 
 .forms-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
+  margin-left: 80px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+  margin-left: 80px;
+
 }
 
 .footer-input {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -556,14 +560,13 @@ svg {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff
+  color: #ffffff;
 }
 
 .footer-form-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
@@ -575,16 +578,16 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 
 .icon-btn {
   margin-left: 16px;
 }
 
-.f .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -710,6 +713,7 @@ svg {
   color: #404bbf;
 }
 
+
 .modal-label {
   display: block;
   margin-bottom: 4px;
@@ -727,8 +731,8 @@ svg {
 
 .modal-icon {
   position: absolute;
-  left: 16px;
   top: 50%;
+  left: 16px;
   transform: translateY(-50%);
   top: 24px;
   right: 24px;
@@ -772,6 +776,10 @@ svg {
   color: #8e8f99;
 }
 
+.modal-field-check {
+  margin-bottom: 24px;
+}
+
 .modal-btn {
   display: block;
   margin: 0 auto;
@@ -811,6 +819,8 @@ svg {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 16px;
+  padding-right: 24px;
 }
 
 .modal-check-text span {
@@ -821,7 +831,6 @@ svg {
   fill: #404bbf;
   border: 1px solid #404bbf;
   margin-right: 12px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -833,4 +842,9 @@ svg {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.polisy {
+  color: #4d5ae5;
+  text-decoration-line: underline;
 }
