@@ -448,9 +448,10 @@
       <div class="footer-forms">
         <p class="forms-title">Subscribe</p>
         <form class="footer-form">
-          <label for="footer-email" class="email-label"></label>
-          <input type="email" name="footer-email" class="footer-input" placeholder="E-mail" />
-          <button type="submit" class="footer-form-btn">Subscribe<svg class="icon-btn" width="24" height="24">
+          <label class="email-label">
+            <input type="email" name="footer-email" class="footer-input" placeholder="E-mail" /></label>
+          <button type="submit" class="footer-form-btn">Subscribe
+            <svg class="icon-btn" width="24" height="24">
               <use href="./images/icons-2.svg#icon-tg"></use>
             </svg>
           </button>
@@ -476,7 +477,7 @@
 
           <div class="modal-field-wrap">
             <input type="text" name="user-name" class="modal-input" placeholder="" required id="user-name" />
-            <svg class="modal-icon" widht="18" height="24">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons-2.svg#icon-person">
               </use>
             </svg>
@@ -488,7 +489,7 @@
 
           <div class="modal-field-wrap">
             <input type="text" name="user-tel" class="modal-input" placeholder="" required id="user-tel" />
-            <svg class="modal-icon" widht="18" height="24">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons-2.svg#icon-phone">
               </use>
             </svg>
@@ -499,14 +500,14 @@
           <label for="user-email" class="modal-label">Email</label>
           <div class="modal-field-wrap">
             <input type="email" name="user-email" class="modal-input" placeholder="" id="user-email" />
-            <svg class="modal-icon" widht="18" height="24">
+            <svg class="modal-icon" width="18" height="24">
               <use href="./images/icons-2.svg#icon-email">
               </use>
             </svg>
           </div>
         </div>
 
-        <div class="modal-field">
+        <div class="modal-field-textarea">
           <label for="user-comment" class="modal-label">Comment</label>
           <textarea name="user-comment" id="user-comment" class="modal-text" placeholder="Text input"></textarea>
         </div>
@@ -514,7 +515,7 @@
           <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
             class="modal-check visually-hidden" />
           <label for="user-privacy" class="modal-check-text">
-            <span>
+            <span class="icon-check">
               <svg class="check-icon" width="10" height="8">
                 <use href="./images/icons-2.svg#icon-check"></use>
               </svg>
