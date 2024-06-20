@@ -568,7 +568,6 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   min-width: 165px;
@@ -662,7 +661,6 @@ svg {
   text-align: center;
   color: #2e2f42;
   max-width: 360px;
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 
@@ -820,7 +818,6 @@ svg {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 16px;
-  padding-right: 24px;
 }
 
 .modal-check-text .icon-check {
